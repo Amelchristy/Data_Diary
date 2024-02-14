@@ -119,7 +119,7 @@ a:hover { color: var(--primary-color); }
 
 .hero__content-width {max-width: 540px;}
 
-.hero_scroll-btn {position: absolute;
+.hero__scroll-btn {position: absolute;
 left: 50%;
 bottom: 30px;
 transform: translateX(-50%);
@@ -132,20 +132,21 @@ text-decoration: none ;
 }
 
 .hero__scroll-btn:hover {
-    color:var(--bs-light);
-    opacity: 0.8;
+  color: var(--bs-light);
+  opacity: 0.8;
 }
 
-
-.hero__scroll-btn bi{
-    transition-delay:0.8s;
-    animation: bounce 1s infinite alternate;
+/* Corrected class selector for the icon */
+.hero__scroll-btn .bi {
+  transition-delay: 0.8s;
+  animation: bounce 1s infinite alternate;
 }
 
-@keyframes bounce {from {
+@keyframes bounce {
+  from {
     transform: translateY(0px);
-}
-to {
+  }
+  to {
     transform: translateY(-10px);
-    }
+  }
 }
