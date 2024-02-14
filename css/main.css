@@ -150,3 +150,33 @@ text-decoration: none ;
     transform: translateY(-10px);
   }
 }
+
+
+/*sections*/
+
+.steps {
+  padding-top : 40px;
+  padding-bottom: 40px;
+}
+
+.steps__section-thumbnail {
+  height: 240px;
+  object-fit: cover;
+  margin: 0 auto;
+}
+
+.step__content-width {
+  max-width: 456px;
+  margin: 0 auto;
+}
+@media (min-width: 544px) {
+  .steps {
+    padding-top: 80px;
+    padding-bottom: 80px;}
+  }
+
+.steps__section-thumbnail {
+  height: auto;
+}
+
+
