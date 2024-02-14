@@ -48,6 +48,9 @@ a:hover { color: var(--primary-color); }
     overflow: hidden;
 }
 
+@media (min-width:1400px) {
+    .hero__heading {
+        font-size: 3.2rem;}}
 
 .hero__video{
     position: absolute;
@@ -85,3 +88,33 @@ a:hover { color: var(--primary-color); }
     z-index: 1;
   }
   
+
+
+
+
+  .container-custom {
+    width: 100%;
+    padding: 0 1rem;
+    margin: 0 auto;
+  }
+  
+  @media (min-width: 1200px) {
+    .container-custom {
+      width: 1140px; /* Removed space before 'px' */
+    }
+  }
+  
+  @media (min-width: 1400px) {
+    .container-custom {
+      width: 1340px; /* Removed space before 'px' */
+    }
+  }
+  
+  @media (min-width: 1600px) {
+    .container-custom {
+      width: 1520px; /* Removed space before 'px' */
+    }
+  }
+  
+
+.hero__content-width {max-width: 540px;}
